@@ -10,6 +10,12 @@ Diego Felix Angeles Angeles
 Instalacion de docker en el siguiente link oficial:
 > https://docs.docker.com/engine/install/ubuntu/
 
+Dar permisos al usuario para usar docker sin usar 'sudo'
+
+```sh
+sudo gpasswd -a $USER docker
+```
+
 ## Docker hub link
 > https://hub.docker.com/r/diegoanan/exam_pg
 
