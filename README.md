@@ -62,3 +62,8 @@ remover imagen
 ```sh
 docker image rm exam diegoanan/exam_pg
 ```
+limpiar sistema
+
+```sh
+docker system prune
+```
